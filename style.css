@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#sp{
+    margin-top: 50px;
+    Height: 100%;
+}
+#sp img {
+     width: 40px;
+     align-items: center;
+     text-align: center;
+}
+#sp h1{
+    font-size: 4em;
+    align-items: center;
+    text-align: center;
+}
+#sp p{
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#main-sun {
+    text-align: center;
+    align-items: center;
+   margin-top: 80px;
+  
+}
+#main-sun img {
+    width: 300px;
+
+}
+#planets tr a img{
+    text-align: center;
+    align-items: center;
+padding: 25px;
+margin-top: 50px;
+width:100%;
+}
+
+#footer{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+@media only screen and (max-width: 600px) {
+
+    #sp img {
+        width: 10px;
+        align-items: center;
+        text-align: center;
+   }
+   #sp h1{
+       font-size: 2em;
+       align-items: center;
+       text-align: center;
+   }
+   #sp p{
+       text-align: center;
+       font-size: 1.2em;
+   }
+   #main-sun {
+    text-align: center;
+    align-items: center;
+   margin-top: 40px;
+  
+}
+#main-sun img {
+    width: 150px;
+
+}
+
+#planets tr a img{
+    text-align: center;
+    align-items: center;
+padding: 12.5px;
+margin-top: 20px;
+width:100%;
+
+}
+
+
+
+}
